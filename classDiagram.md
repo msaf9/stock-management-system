@@ -16,8 +16,10 @@ classDiagram
           -int sizeInFeet
           -canEat()
       }
-      class Zebra{
-          +bool is_wild
-          +run()
+      class Stock{
+          +int productId
+          +int quantity
+          +addStock()
+          +updateStock(int productId)
       }
 ```
