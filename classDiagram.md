@@ -1,25 +1,29 @@
 ```mermaid
 classDiagram
-      Animal <|-- Duck
-      Animal <|-- Fish
-      Animal <|-- Zebra
-      Animal : +int age
-      Animal : +String gender
-      Animal: +isMammal()
-      Animal: +mate()
-      class Duck{
-          +String beakColor
-          +swim()
-          +quack()
-      }
-      class Fish{
-          -int sizeInFeet
-          -canEat()
-      }
+      Stock <|-- Product
+      User <|-- Product
+      
       class Stock{
           +int productId
           +int quantity
           +addStock()
           +updateStock(int productId)
+      }
+      class Product{
+          +int productId
+          +String productName
+          +float productPrice 
+          +addProduct()
+          +updateProduct(int productId)
+          +deleteProduct(int productId)
+      }
+      class User{
+          +int userId
+          +String userName
+          +String address
+          +int phoneNumber
+          +addUser()
+          +editUser(int userId)
+          +deleteUser(int userId)
       }
 ```
