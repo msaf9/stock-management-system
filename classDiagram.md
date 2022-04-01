@@ -1,8 +1,9 @@
 ```mermaid
 classDiagram
+      Product <|-- User
       Stock <|-- Product
-      User <|-- Product
-      
+      Transaction <|-- Product
+      Stock <|-- Transaction
       class Stock{
           +int productId
           +int quantity
@@ -25,5 +26,13 @@ classDiagram
           +addUser()
           +editUser(int userId)
           +deleteUser(int userId)
+      }
+      class Transaction{
+          +int transactionId
+          +String userName
+          +int price
+          +int quantity
+          +doTransaction()
+          +updateStock(int userId)
       }
 ```
