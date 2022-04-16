@@ -1,0 +1,23 @@
+@startuml
+(*) --> "Initialization"
+
+if "Verify login credentails" then
+  -->[false] "Login failed"
+  -right-> (*)
+else
+  ->[true] "Login"
+  --> "Search for the product"
+    if "Check for the product" then
+    -->[true] "Use the application"
+    -->===B1===
+    --> "Purchase"
+    --> (*)
+    ===B1===--> "Product details"
+    --> (*)
+    else
+    ->[false] "Product not found"
+
+  --> (*)
+endif
+
+@enduml
