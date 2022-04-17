@@ -1,0 +1,1 @@
+![stock-management-system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://gist.githubusercontent.com/msaf9/99a26041403d53bffa5e51e9284478cf/raw/5f9c5725ca02b25b24db4617a4bd41ade760098c/activityDiagramAdmin.iuml)
