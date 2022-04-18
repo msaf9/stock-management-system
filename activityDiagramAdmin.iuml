@@ -1,0 +1,18 @@
+@startuml
+(*) --> "Admin"
+
+if "Verify login credentails" then
+  -->[false] "Login failed"
+  -right-> (*)
+else
+  ->[true] "Login"
+    -->===B1===
+    --> "Update product details"
+    --> (*)
+    ===B1===--> "Update stock details"
+    --> (*)
+    ===B1===--> "Transaction management"
+    --> (*)
+endif
+
+@enduml
