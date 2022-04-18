@@ -23,6 +23,8 @@ Design and development of Stock Management System architecture.
 ## Project status
 > **WIP**
 
+## Installation
+### Get repository
 ```git
 git https://github.com/msaf9/SoftwareEngineeringProject.git
 cd SoftwareEngineeringProject
