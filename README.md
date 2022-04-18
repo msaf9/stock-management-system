@@ -18,7 +18,7 @@ Design and development of Stock Management System architecture.
 - Academic Year: 2016 - 17
 
 ## Technologies
-- 
+- Markdown
 
 ## Project status
 > **WIP**
