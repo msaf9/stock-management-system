@@ -17,6 +17,15 @@ Design and development of Stock Management System architecture.
 - Course Credits: 4
 - Academic Year: 2016 - 17
 
+### UML Diagrams
+#### Use case diagram
+
+#### Class diagram
+
+#### Sequence diagram
+
+#### Activity diagram
+
 ## Technologies
 - Markdown
 
