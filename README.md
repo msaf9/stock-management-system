@@ -19,7 +19,8 @@ Design and development of Stock Management System architecture.
 
 ### UML Diagrams
 #### Use case diagram
-
+![Use case diagram](/resources/UseCaseDiagram.png)
+- Navigate to Use case diagram [markdown source code](useCaseDiagram.iuml).
 #### Class diagram
 
 #### Sequence diagram
