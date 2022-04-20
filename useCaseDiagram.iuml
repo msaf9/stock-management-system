@@ -1,8 +1,25 @@
 @startuml
-
-:User: --> (Use)
-"Main Admin" as Admin
-"Use the application" as (Use)
-Admin --> (Admin the application)
-
+left to right direction
+actor User as u
+rectangle Professionals {
+  actor Administrator as a
+  actor "Store Manager" as sm
+}
+rectangle Store {
+  usecase "Purchase product " as UC1
+  usecase "Product details" as UC2
+  usecase "Stock details" as UC3
+  usecase "Transaction details" as UC4
+  usecase "Maintain application" as UC5
+  usecase "Sign up" as UC6
+  usecase "Login" as UC7
+}
+a --> UC5
+sm --> UC2
+sm --> UC3
+sm --> UC4
+u --> UC1
+u --> UC2
+u --> UC6
+u --> UC7
 @enduml
