@@ -1,4 +1,4 @@
-# Software Engineering Project
+# Software Engineering Assignment
 
 Project Name: Stock Management System.
 
