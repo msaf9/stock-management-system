@@ -23,8 +23,10 @@ Design and development of Stock Management System architecture.
 - Navigate to Use case diagram [markdown source code](useCaseDiagram.iuml).
 
 #### Class diagram
+- Navigate to [Class diagram](classDiagram.md).
 
 #### Sequence diagram
+- Navigate to [Sequence diagram](SequenceDiagram.md).
 
 #### Activity diagram
 ![Activity diagram](/resources/ActivityDiagram.png)
