@@ -39,7 +39,7 @@ Design and development of Stock Management System architecture.
 - Markdown
 
 ## Project status
-> **WIP**
+> **Completed**
 
 ## Installation
 ### Get repository
