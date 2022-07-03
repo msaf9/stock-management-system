@@ -1,17 +1,25 @@
-# Software Engineering Assignment
+# Stock Management System
 
 Project Name: Stock Management System.
 
-## Table of contents
-1. Introduction
-2. Technologies
-3. Project status
-4. Installation
-5. License
+- [Stock Management System](#stock-management-system)
+  - [Introduction](#introduction)
+    - [Course Information](#course-information)
+    - [UML Diagrams](#uml-diagrams)
+      - [Use case diagram](#use-case-diagram)
+      - [Class diagram](#class-diagram)
+      - [Sequence diagram](#sequence-diagram)
+      - [Activity diagram](#activity-diagram)
+  - [Technologies](#technologies)
+  - [Project status](#project-status)
+  - [Installation](#installation)
+    - [Get repository](#get-repository)
+  - [License](#license)
 
 ## Introduction
 Design and development of Stock Management System architecture.
 
+### Course Information
 - Course Name: SOFTWARE ENGINEERING
 - Course Code: 15CS2105
 - Course Credits: 4
