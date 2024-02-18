@@ -64,8 +64,8 @@ Design and development of Stock Management System architecture.
 ### Get repository
 
 ```git
-git https://github.com/msaf9/SoftwareEngineeringProject.git
-cd SoftwareEngineeringProject
+git https://github.com/msaf9/stock-management-system.git
+cd stock-management-system
 ```
 
 ## License
