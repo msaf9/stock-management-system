@@ -1,6 +1,8 @@
 <h1> Stock Management System </h1>
 Project Name: Stock Management System.
 
+<h2>Table of contents</h2>
+
 - [Introduction](#introduction)
   - [Course Information](#course-information)
   - [UML Diagrams](#uml-diagrams)
@@ -8,7 +10,7 @@ Project Name: Stock Management System.
     - [Class diagram](#class-diagram)
     - [Sequence diagram](#sequence-diagram)
     - [Activity diagram](#activity-diagram)
-- [Technologies](#technologies)
+- [Programming Language](#programming-language)
 - [Project status](#project-status)
 - [Installation](#installation)
   - [Get repository](#get-repository)
@@ -51,7 +53,7 @@ Design and development of Stock Management System architecture.
 
 - Navigate to Activity diagram [markdown source code](activityDiagramAdmin.iuml).
 
-## Technologies
+## Programming Language
 
 - Markdown
 
