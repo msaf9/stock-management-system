@@ -71,3 +71,4 @@ cd stock-management-system
 ```
 
 ## License
+[MIT LICENSE](LICENSE)
